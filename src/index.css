@@ -1,0 +1,60 @@
+:root {
+  --fondo: #f4f5fa;
+  --superficie: #ffffff;
+  --borde: #e6e7ef;
+  --texto: #1f2033;
+  --texto-suave: #6b6d82;
+  --primario: #6a4ce8;
+  --primario-oscuro: #5236cf;
+  --primario-suave: #efebff;
+  --oscuro: #1c1a2e;
+  --verde: #16a36a;
+  --verde-suave: #e5f6ee;
+  --ambar: #d98a0b;
+  --ambar-suave: #fdf3e1;
+  --rojo: #dc3d4b;
+  --rojo-suave: #fdecee;
+  --azul: #2f7de1;
+  --azul-suave: #e7f0fd;
+  --radio: 14px;
+  --sombra: 0 1px 2px rgba(28, 26, 46, 0.04), 0 4px 16px rgba(28, 26, 46, 0.05);
+
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--texto);
+  background: var(--fondo);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--fondo);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
